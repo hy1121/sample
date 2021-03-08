@@ -1,0 +1,30 @@
+@media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+        font-size: 100px;
+    }
+
+    .top-wrapper h2 {
+        font-size: 50px;
+    }
+    .contents-item {
+        width: 50%;
+    }
+}
+@media all and (max-width: 670px) {
+    .header-list {
+        display: none;
+    }
+    .header-menu {
+        display: block;
+    }
+    .top-wrapper h1 {
+        font-size: 70px;
+    }
+
+    .top-wrapper h2 {
+        font-size: 23px;
+    }
+    .contents-item {
+        width: 100%;
+    }
+}
